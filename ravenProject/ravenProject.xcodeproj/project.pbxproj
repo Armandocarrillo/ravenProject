@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BC5411A827C3312F53587D4 /* Pods_ravenProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E845DBF27356E6B0DFEFDDA3 /* Pods_ravenProject.framework */; };
+		88413A47BF418258FF4F94B5 /* Pods_ravenProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41E74FEDE4A199D8658ED67 /* Pods_ravenProjectTests.framework */; };
+		A09195B528E05A5D00ED3A30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195B428E05A5D00ED3A30 /* AppDelegate.swift */; };
+		A09195BE28E05A5E00ED3A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09195BD28E05A5E00ED3A30 /* Assets.xcassets */; };
+		A09195C128E05A5E00ED3A30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09195BF28E05A5E00ED3A30 /* LaunchScreen.storyboard */; };
+		A09195CC28E05A5F00ED3A30 /* ravenProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195CB28E05A5F00ED3A30 /* ravenProjectTests.swift */; };
+		A09195D628E05A5F00ED3A30 /* ravenProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195D528E05A5F00ED3A30 /* ravenProjectUITests.swift */; };
+		A09195D828E05A5F00ED3A30 /* ravenProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195D728E05A5F00ED3A30 /* ravenProjectUITestsLaunchTests.swift */; };
+		A09195E628E05E1200ED3A30 /* MainTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195E528E05E1200ED3A30 /* MainTableViewViewController.swift */; };
+		A09195E828E05E2C00ED3A30 /* MainTableViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195E728E05E2C00ED3A30 /* MainTableViewContainer.swift */; };
+		A09195EA28E05E4800ED3A30 /* MainTableViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195E928E05E4800ED3A30 /* MainTableViewMain.swift */; };
+		A09195EC28E05E6200ED3A30 /* MainTableViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195EB28E05E6200ED3A30 /* MainTableViewPresenter.swift */; };
+		A09195EE28E05E7200ED3A30 /* MainTableViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195ED28E05E7200ED3A30 /* MainTableViewInteractor.swift */; };
+		A09195F028E05E8200ED3A30 /* MainTableViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195EF28E05E8200ED3A30 /* MainTableViewRouter.swift */; };
+		A09195F228E05E9200ED3A30 /* MainTableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195F128E05E9200ED3A30 /* MainTableViewProtocol.swift */; };
+		B53CA3915FF696E23C9BF9D2 /* Pods_ravenProject_ravenProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ECBEFFD65BCB30C0FEBCC2 /* Pods_ravenProject_ravenProjectUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A09195C828E05A5F00ED3A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A09195A928E05A5D00ED3A30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A09195B028E05A5D00ED3A30;
+			remoteInfo = ravenProject;
+		};
+		A09195D228E05A5F00ED3A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A09195A928E05A5D00ED3A30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A09195B028E05A5D00ED3A30;
+			remoteInfo = ravenProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12ECBEFFD65BCB30C0FEBCC2 /* Pods_ravenProject_ravenProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ravenProject_ravenProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A2671309C305E506556A30 /* Pods-ravenProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ravenProject.debug.xcconfig"; path = "Target Support Files/Pods-ravenProject/Pods-ravenProject.debug.xcconfig"; sourceTree = "<group>"; };
+		73625FDB1969F3E26D2730EB /* Pods-ravenProject-ravenProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ravenProject-ravenProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-ravenProject-ravenProjectUITests/Pods-ravenProject-ravenProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90F87A224653DB07A61CCF13 /* Pods-ravenProject-ravenProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ravenProject-ravenProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-ravenProject-ravenProjectUITests/Pods-ravenProject-ravenProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		99C6CD0F20207CBBB8C95DBF /* Pods-ravenProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ravenProjectTests.release.xcconfig"; path = "Target Support Files/Pods-ravenProjectTests/Pods-ravenProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		A09195B128E05A5D00ED3A30 /* ravenProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ravenProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09195B428E05A5D00ED3A30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A09195BD28E05A5E00ED3A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A09195C028E05A5E00ED3A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A09195C228E05A5E00ED3A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A09195C728E05A5F00ED3A30 /* ravenProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ravenProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09195CB28E05A5F00ED3A30 /* ravenProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ravenProjectTests.swift; sourceTree = "<group>"; };
+		A09195D128E05A5F00ED3A30 /* ravenProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ravenProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09195D528E05A5F00ED3A30 /* ravenProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ravenProjectUITests.swift; sourceTree = "<group>"; };
+		A09195D728E05A5F00ED3A30 /* ravenProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ravenProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A09195E528E05E1200ED3A30 /* MainTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewViewController.swift; sourceTree = "<group>"; };
+		A09195E728E05E2C00ED3A30 /* MainTableViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewContainer.swift; sourceTree = "<group>"; };
+		A09195E928E05E4800ED3A30 /* MainTableViewMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewMain.swift; sourceTree = "<group>"; };
+		A09195EB28E05E6200ED3A30 /* MainTableViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewPresenter.swift; sourceTree = "<group>"; };
+		A09195ED28E05E7200ED3A30 /* MainTableViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewInteractor.swift; sourceTree = "<group>"; };
+		A09195EF28E05E8200ED3A30 /* MainTableViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewRouter.swift; sourceTree = "<group>"; };
+		A09195F128E05E9200ED3A30 /* MainTableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewProtocol.swift; sourceTree = "<group>"; };
+		B41E74FEDE4A199D8658ED67 /* Pods_ravenProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ravenProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E845DBF27356E6B0DFEFDDA3 /* Pods_ravenProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ravenProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8FCB7E39F042D96B7ED8180 /* Pods-ravenProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ravenProject.release.xcconfig"; path = "Target Support Files/Pods-ravenProject/Pods-ravenProject.release.xcconfig"; sourceTree = "<group>"; };
+		FE83C980B5B3F7C066EDB27B /* Pods-ravenProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ravenProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-ravenProjectTests/Pods-ravenProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A09195AE28E05A5D00ED3A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC5411A827C3312F53587D4 /* Pods_ravenProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09195C428E05A5F00ED3A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88413A47BF418258FF4F94B5 /* Pods_ravenProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09195CE28E05A5F00ED3A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53CA3915FF696E23C9BF9D2 /* Pods_ravenProject_ravenProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB1A707B8FD9EB1EDFE5F32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E845DBF27356E6B0DFEFDDA3 /* Pods_ravenProject.framework */,
+				12ECBEFFD65BCB30C0FEBCC2 /* Pods_ravenProject_ravenProjectUITests.framework */,
+				B41E74FEDE4A199D8658ED67 /* Pods_ravenProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73FC2568780A1CA94B83F75B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49A2671309C305E506556A30 /* Pods-ravenProject.debug.xcconfig */,
+				E8FCB7E39F042D96B7ED8180 /* Pods-ravenProject.release.xcconfig */,
+				73625FDB1969F3E26D2730EB /* Pods-ravenProject-ravenProjectUITests.debug.xcconfig */,
+				90F87A224653DB07A61CCF13 /* Pods-ravenProject-ravenProjectUITests.release.xcconfig */,
+				FE83C980B5B3F7C066EDB27B /* Pods-ravenProjectTests.debug.xcconfig */,
+				99C6CD0F20207CBBB8C95DBF /* Pods-ravenProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A09195A828E05A5D00ED3A30 = {
+			isa = PBXGroup;
+			children = (
+				A09195B328E05A5D00ED3A30 /* ravenProject */,
+				A09195E428E05D2900ED3A30 /* MainTableView */,
+				A09195CA28E05A5F00ED3A30 /* ravenProjectTests */,
+				A09195D428E05A5F00ED3A30 /* ravenProjectUITests */,
+				A09195B228E05A5D00ED3A30 /* Products */,
+				73FC2568780A1CA94B83F75B /* Pods */,
+				3FB1A707B8FD9EB1EDFE5F32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A09195B228E05A5D00ED3A30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A09195B128E05A5D00ED3A30 /* ravenProject.app */,
+				A09195C728E05A5F00ED3A30 /* ravenProjectTests.xctest */,
+				A09195D128E05A5F00ED3A30 /* ravenProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A09195B328E05A5D00ED3A30 /* ravenProject */ = {
+			isa = PBXGroup;
+			children = (
+				A09195F728E069D800ED3A30 /* Launch */,
+				A09195BD28E05A5E00ED3A30 /* Assets.xcassets */,
+				A09195C228E05A5E00ED3A30 /* Info.plist */,
+			);
+			path = ravenProject;
+			sourceTree = "<group>";
+		};
+		A09195CA28E05A5F00ED3A30 /* ravenProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A09195CB28E05A5F00ED3A30 /* ravenProjectTests.swift */,
+			);
+			path = ravenProjectTests;
+			sourceTree = "<group>";
+		};
+		A09195D428E05A5F00ED3A30 /* ravenProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A09195D528E05A5F00ED3A30 /* ravenProjectUITests.swift */,
+				A09195D728E05A5F00ED3A30 /* ravenProjectUITestsLaunchTests.swift */,
+			);
+			path = ravenProjectUITests;
+			sourceTree = "<group>";
+		};
+		A09195E428E05D2900ED3A30 /* MainTableView */ = {
+			isa = PBXGroup;
+			children = (
+				A09195E928E05E4800ED3A30 /* MainTableViewMain.swift */,
+				A09195E728E05E2C00ED3A30 /* MainTableViewContainer.swift */,
+				A09195E528E05E1200ED3A30 /* MainTableViewViewController.swift */,
+				A09195EB28E05E6200ED3A30 /* MainTableViewPresenter.swift */,
+				A09195ED28E05E7200ED3A30 /* MainTableViewInteractor.swift */,
+				A09195EF28E05E8200ED3A30 /* MainTableViewRouter.swift */,
+				A09195F128E05E9200ED3A30 /* MainTableViewProtocol.swift */,
+			);
+			path = MainTableView;
+			sourceTree = "<group>";
+		};
+		A09195F728E069D800ED3A30 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				A09195BF28E05A5E00ED3A30 /* LaunchScreen.storyboard */,
+				A09195B428E05A5D00ED3A30 /* AppDelegate.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A09195B028E05A5D00ED3A30 /* ravenProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A09195DB28E05A5F00ED3A30 /* Build configuration list for PBXNativeTarget "ravenProject" */;
+			buildPhases = (
+				A32B481DC4C2380FBDDAC698 /* [CP] Check Pods Manifest.lock */,
+				A09195AD28E05A5D00ED3A30 /* Sources */,
+				A09195AE28E05A5D00ED3A30 /* Frameworks */,
+				A09195AF28E05A5D00ED3A30 /* Resources */,
+				AF0A30BF082EFFA48151EC94 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ravenProject;
+			productName = ravenProject;
+			productReference = A09195B128E05A5D00ED3A30 /* ravenProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A09195C628E05A5F00ED3A30 /* ravenProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A09195DE28E05A5F00ED3A30 /* Build configuration list for PBXNativeTarget "ravenProjectTests" */;
+			buildPhases = (
+				EB587D723C52EEC58963B370 /* [CP] Check Pods Manifest.lock */,
+				A09195C328E05A5F00ED3A30 /* Sources */,
+				A09195C428E05A5F00ED3A30 /* Frameworks */,
+				A09195C528E05A5F00ED3A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A09195C928E05A5F00ED3A30 /* PBXTargetDependency */,
+			);
+			name = ravenProjectTests;
+			productName = ravenProjectTests;
+			productReference = A09195C728E05A5F00ED3A30 /* ravenProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A09195D028E05A5F00ED3A30 /* ravenProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A09195E128E05A5F00ED3A30 /* Build configuration list for PBXNativeTarget "ravenProjectUITests" */;
+			buildPhases = (
+				EB63A7283F0F6A7D6FB10D64 /* [CP] Check Pods Manifest.lock */,
+				A09195CD28E05A5F00ED3A30 /* Sources */,
+				A09195CE28E05A5F00ED3A30 /* Frameworks */,
+				A09195CF28E05A5F00ED3A30 /* Resources */,
+				E5E1AFA3CE309A4B8844C4E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A09195D328E05A5F00ED3A30 /* PBXTargetDependency */,
+			);
+			name = ravenProjectUITests;
+			productName = ravenProjectUITests;
+			productReference = A09195D128E05A5F00ED3A30 /* ravenProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A09195A928E05A5D00ED3A30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A09195B028E05A5D00ED3A30 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					A09195C628E05A5F00ED3A30 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A09195B028E05A5D00ED3A30;
+					};
+					A09195D028E05A5F00ED3A30 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = A09195B028E05A5D00ED3A30;
+					};
+				};
+			};
+			buildConfigurationList = A09195AC28E05A5D00ED3A30 /* Build configuration list for PBXProject "ravenProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A09195A828E05A5D00ED3A30;
+			productRefGroup = A09195B228E05A5D00ED3A30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A09195B028E05A5D00ED3A30 /* ravenProject */,
+				A09195C628E05A5F00ED3A30 /* ravenProjectTests */,
+				A09195D028E05A5F00ED3A30 /* ravenProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A09195AF28E05A5D00ED3A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09195C128E05A5E00ED3A30 /* LaunchScreen.storyboard in Resources */,
+				A09195BE28E05A5E00ED3A30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09195C528E05A5F00ED3A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09195CF28E05A5F00ED3A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A32B481DC4C2380FBDDAC698 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ravenProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0A30BF082EFFA48151EC94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ravenProject/Pods-ravenProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ravenProject/Pods-ravenProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ravenProject/Pods-ravenProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5E1AFA3CE309A4B8844C4E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ravenProject-ravenProjectUITests/Pods-ravenProject-ravenProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ravenProject-ravenProjectUITests/Pods-ravenProject-ravenProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ravenProject-ravenProjectUITests/Pods-ravenProject-ravenProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB587D723C52EEC58963B370 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ravenProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB63A7283F0F6A7D6FB10D64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ravenProject-ravenProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A09195AD28E05A5D00ED3A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09195EA28E05E4800ED3A30 /* MainTableViewMain.swift in Sources */,
+				A09195F028E05E8200ED3A30 /* MainTableViewRouter.swift in Sources */,
+				A09195E628E05E1200ED3A30 /* MainTableViewViewController.swift in Sources */,
+				A09195EE28E05E7200ED3A30 /* MainTableViewInteractor.swift in Sources */,
+				A09195EC28E05E6200ED3A30 /* MainTableViewPresenter.swift in Sources */,
+				A09195E828E05E2C00ED3A30 /* MainTableViewContainer.swift in Sources */,
+				A09195B528E05A5D00ED3A30 /* AppDelegate.swift in Sources */,
+				A09195F228E05E9200ED3A30 /* MainTableViewProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09195C328E05A5F00ED3A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09195CC28E05A5F00ED3A30 /* ravenProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09195CD28E05A5F00ED3A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A09195D628E05A5F00ED3A30 /* ravenProjectUITests.swift in Sources */,
+				A09195D828E05A5F00ED3A30 /* ravenProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A09195C928E05A5F00ED3A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A09195B028E05A5D00ED3A30 /* ravenProject */;
+			targetProxy = A09195C828E05A5F00ED3A30 /* PBXContainerItemProxy */;
+		};
+		A09195D328E05A5F00ED3A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A09195B028E05A5D00ED3A30 /* ravenProject */;
+			targetProxy = A09195D228E05A5F00ED3A30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A09195BF28E05A5E00ED3A30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A09195C028E05A5E00ED3A30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A09195D928E05A5F00ED3A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A09195DA28E05A5F00ED3A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A09195DC28E05A5F00ED3A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A2671309C305E506556A30 /* Pods-ravenProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ravenProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.armando.ravenProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A09195DD28E05A5F00ED3A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8FCB7E39F042D96B7ED8180 /* Pods-ravenProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ravenProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.armando.ravenProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A09195DF28E05A5F00ED3A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE83C980B5B3F7C066EDB27B /* Pods-ravenProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9PBZY9Z649;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestBnext.ravenProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ravenProject.app/ravenProject";
+			};
+			name = Debug;
+		};
+		A09195E028E05A5F00ED3A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C6CD0F20207CBBB8C95DBF /* Pods-ravenProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9PBZY9Z649;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestBnext.ravenProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ravenProject.app/ravenProject";
+			};
+			name = Release;
+		};
+		A09195E228E05A5F00ED3A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73625FDB1969F3E26D2730EB /* Pods-ravenProject-ravenProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9PBZY9Z649;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestBnext.ravenProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ravenProject;
+			};
+			name = Debug;
+		};
+		A09195E328E05A5F00ED3A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F87A224653DB07A61CCF13 /* Pods-ravenProject-ravenProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9PBZY9Z649;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TestBnext.ravenProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ravenProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A09195AC28E05A5D00ED3A30 /* Build configuration list for PBXProject "ravenProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09195D928E05A5F00ED3A30 /* Debug */,
+				A09195DA28E05A5F00ED3A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A09195DB28E05A5F00ED3A30 /* Build configuration list for PBXNativeTarget "ravenProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09195DC28E05A5F00ED3A30 /* Debug */,
+				A09195DD28E05A5F00ED3A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A09195DE28E05A5F00ED3A30 /* Build configuration list for PBXNativeTarget "ravenProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09195DF28E05A5F00ED3A30 /* Debug */,
+				A09195E028E05A5F00ED3A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A09195E128E05A5F00ED3A30 /* Build configuration list for PBXNativeTarget "ravenProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A09195E228E05A5F00ED3A30 /* Debug */,
+				A09195E328E05A5F00ED3A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A09195A928E05A5D00ED3A30 /* Project object */;
+}
