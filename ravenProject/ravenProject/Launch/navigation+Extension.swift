@@ -14,5 +14,8 @@ extension UINavigationController {
         self.viewControllers.removeAll()
         self.pushViewController(vc, animated: false)
         self.popToRootViewController(animated: false)
+        
+        UINavigationBar.appearance().barTintColor = UIColor.black
+        UINavigationBar.appearance().tintColor = .white
     }
 }
