@@ -12,6 +12,17 @@ class MainTableViewRouter {
 }
 
 extension MainTableViewRouter : MainTableViewWireframeProtocol {
+    func goToWebView(url: String) {
+        
+        if let nav = navigation{
+            let view =  WebViewDetailMain.createModule(navigation: nav, URL: url)
+            nav.pushViewController(view, animated: true)
+        }
+          
+       
+    }
+    
+   
 
     
 }

@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		1BC5411A827C3312F53587D4 /* Pods_ravenProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E845DBF27356E6B0DFEFDDA3 /* Pods_ravenProject.framework */; };
 		88413A47BF418258FF4F94B5 /* Pods_ravenProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B41E74FEDE4A199D8658ED67 /* Pods_ravenProjectTests.framework */; };
+		A0015EF628E188AE0055347B /* WebViewDetailMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0015EF528E188AE0055347B /* WebViewDetailMain.swift */; };
+		A0015EF828E188BE0055347B /* WebViewDetailContainter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0015EF728E188BE0055347B /* WebViewDetailContainter.swift */; };
+		A0015EFA28E188C90055347B /* WebViewDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0015EF928E188C90055347B /* WebViewDetailViewController.swift */; };
+		A0015EFC28E188D30055347B /* WebViewDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0015EFB28E188D30055347B /* WebViewDetailPresenter.swift */; };
+		A0015EFE28E188DA0055347B /* WebViewDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0015EFD28E188DA0055347B /* WebViewDetailInteractor.swift */; };
+		A0015F0028E188E50055347B /* WebViewDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0015EFF28E188E50055347B /* WebViewDetailRouter.swift */; };
+		A0015F0228E188EB0055347B /* WebViewDetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0015F0128E188EB0055347B /* WebViewDetailProtocol.swift */; };
+		A0015F0428E198450055347B /* navigation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0015F0328E198450055347B /* navigation+Extension.swift */; };
+		A0015F0728E19AF10055347B /* ConnectionNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0015F0628E19AF10055347B /* ConnectionNetwork.swift */; };
 		A09195B528E05A5D00ED3A30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195B428E05A5D00ED3A30 /* AppDelegate.swift */; };
 		A09195BE28E05A5E00ED3A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A09195BD28E05A5E00ED3A30 /* Assets.xcassets */; };
 		A09195C128E05A5E00ED3A30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A09195BF28E05A5E00ED3A30 /* LaunchScreen.storyboard */; };
@@ -22,6 +31,12 @@
 		A09195EE28E05E7200ED3A30 /* MainTableViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195ED28E05E7200ED3A30 /* MainTableViewInteractor.swift */; };
 		A09195F028E05E8200ED3A30 /* MainTableViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195EF28E05E8200ED3A30 /* MainTableViewRouter.swift */; };
 		A09195F228E05E9200ED3A30 /* MainTableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195F128E05E9200ED3A30 /* MainTableViewProtocol.swift */; };
+		A09195FA28E0DC3B00ED3A30 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195F928E0DC3B00ED3A30 /* MainCell.swift */; };
+		A09195FC28E0DCC900ED3A30 /* MainCellShimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195FB28E0DCC900ED3A30 /* MainCellShimer.swift */; };
+		A09195FF28E0DD3E00ED3A30 /* raven_ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09195FE28E0DD3E00ED3A30 /* raven_ShimmerView.swift */; };
+		A091960428E0EC4C00ED3A30 /* GetNewsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A091960328E0EC4C00ED3A30 /* GetNewsResponse.swift */; };
+		A091960828E0EE2500ED3A30 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A091960728E0EE2500ED3A30 /* Provider.swift */; };
+		A091960A28E0EE4100ED3A30 /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A091960928E0EE4100ED3A30 /* Interface.swift */; };
 		B53CA3915FF696E23C9BF9D2 /* Pods_ravenProject_ravenProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12ECBEFFD65BCB30C0FEBCC2 /* Pods_ravenProject_ravenProjectUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +63,15 @@
 		73625FDB1969F3E26D2730EB /* Pods-ravenProject-ravenProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ravenProject-ravenProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-ravenProject-ravenProjectUITests/Pods-ravenProject-ravenProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		90F87A224653DB07A61CCF13 /* Pods-ravenProject-ravenProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ravenProject-ravenProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-ravenProject-ravenProjectUITests/Pods-ravenProject-ravenProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		99C6CD0F20207CBBB8C95DBF /* Pods-ravenProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ravenProjectTests.release.xcconfig"; path = "Target Support Files/Pods-ravenProjectTests/Pods-ravenProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0015EF528E188AE0055347B /* WebViewDetailMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewDetailMain.swift; sourceTree = "<group>"; };
+		A0015EF728E188BE0055347B /* WebViewDetailContainter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewDetailContainter.swift; sourceTree = "<group>"; };
+		A0015EF928E188C90055347B /* WebViewDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewDetailViewController.swift; sourceTree = "<group>"; };
+		A0015EFB28E188D30055347B /* WebViewDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewDetailPresenter.swift; sourceTree = "<group>"; };
+		A0015EFD28E188DA0055347B /* WebViewDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewDetailInteractor.swift; sourceTree = "<group>"; };
+		A0015EFF28E188E50055347B /* WebViewDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewDetailRouter.swift; sourceTree = "<group>"; };
+		A0015F0128E188EB0055347B /* WebViewDetailProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewDetailProtocol.swift; sourceTree = "<group>"; };
+		A0015F0328E198450055347B /* navigation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "navigation+Extension.swift"; sourceTree = "<group>"; };
+		A0015F0628E19AF10055347B /* ConnectionNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionNetwork.swift; sourceTree = "<group>"; };
 		A09195B128E05A5D00ED3A30 /* ravenProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ravenProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09195B428E05A5D00ED3A30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A09195BD28E05A5E00ED3A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,6 +89,12 @@
 		A09195ED28E05E7200ED3A30 /* MainTableViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewInteractor.swift; sourceTree = "<group>"; };
 		A09195EF28E05E8200ED3A30 /* MainTableViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewRouter.swift; sourceTree = "<group>"; };
 		A09195F128E05E9200ED3A30 /* MainTableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewProtocol.swift; sourceTree = "<group>"; };
+		A09195F928E0DC3B00ED3A30 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		A09195FB28E0DCC900ED3A30 /* MainCellShimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCellShimer.swift; sourceTree = "<group>"; };
+		A09195FE28E0DD3E00ED3A30 /* raven_ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raven_ShimmerView.swift; sourceTree = "<group>"; };
+		A091960328E0EC4C00ED3A30 /* GetNewsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNewsResponse.swift; sourceTree = "<group>"; };
+		A091960728E0EE2500ED3A30 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		A091960928E0EE4100ED3A30 /* Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
 		B41E74FEDE4A199D8658ED67 /* Pods_ravenProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ravenProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E845DBF27356E6B0DFEFDDA3 /* Pods_ravenProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ravenProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FCB7E39F042D96B7ED8180 /* Pods-ravenProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ravenProject.release.xcconfig"; path = "Target Support Files/Pods-ravenProject/Pods-ravenProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -122,11 +152,26 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		A0015EF428E188760055347B /* WebViewDetail */ = {
+			isa = PBXGroup;
+			children = (
+				A0015EF528E188AE0055347B /* WebViewDetailMain.swift */,
+				A0015EF728E188BE0055347B /* WebViewDetailContainter.swift */,
+				A0015EF928E188C90055347B /* WebViewDetailViewController.swift */,
+				A0015EFB28E188D30055347B /* WebViewDetailPresenter.swift */,
+				A0015EFD28E188DA0055347B /* WebViewDetailInteractor.swift */,
+				A0015EFF28E188E50055347B /* WebViewDetailRouter.swift */,
+				A0015F0128E188EB0055347B /* WebViewDetailProtocol.swift */,
+			);
+			path = WebViewDetail;
+			sourceTree = "<group>";
+		};
 		A09195A828E05A5D00ED3A30 = {
 			isa = PBXGroup;
 			children = (
 				A09195B328E05A5D00ED3A30 /* ravenProject */,
 				A09195E428E05D2900ED3A30 /* MainTableView */,
+				A0015EF428E188760055347B /* WebViewDetail */,
 				A09195CA28E05A5F00ED3A30 /* ravenProjectTests */,
 				A09195D428E05A5F00ED3A30 /* ravenProjectUITests */,
 				A09195B228E05A5D00ED3A30 /* Products */,
@@ -148,6 +193,8 @@
 		A09195B328E05A5D00ED3A30 /* ravenProject */ = {
 			isa = PBXGroup;
 			children = (
+				A091960028E0EC0500ED3A30 /* Network */,
+				A09195FD28E0DD2200ED3A30 /* Utils */,
 				A09195F728E069D800ED3A30 /* Launch */,
 				A09195BD28E05A5E00ED3A30 /* Assets.xcassets */,
 				A09195C228E05A5E00ED3A30 /* Info.plist */,
@@ -175,6 +222,7 @@
 		A09195E428E05D2900ED3A30 /* MainTableView */ = {
 			isa = PBXGroup;
 			children = (
+				A09195F828E0DBAB00ED3A30 /* Cell */,
 				A09195E928E05E4800ED3A30 /* MainTableViewMain.swift */,
 				A09195E728E05E2C00ED3A30 /* MainTableViewContainer.swift */,
 				A09195E528E05E1200ED3A30 /* MainTableViewViewController.swift */,
@@ -191,8 +239,53 @@
 			children = (
 				A09195BF28E05A5E00ED3A30 /* LaunchScreen.storyboard */,
 				A09195B428E05A5D00ED3A30 /* AppDelegate.swift */,
+				A0015F0328E198450055347B /* navigation+Extension.swift */,
 			);
 			path = Launch;
+			sourceTree = "<group>";
+		};
+		A09195F828E0DBAB00ED3A30 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A09195F928E0DC3B00ED3A30 /* MainCell.swift */,
+				A09195FB28E0DCC900ED3A30 /* MainCellShimer.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A09195FD28E0DD2200ED3A30 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A09195FE28E0DD3E00ED3A30 /* raven_ShimmerView.swift */,
+				A0015F0628E19AF10055347B /* ConnectionNetwork.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A091960028E0EC0500ED3A30 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A091960228E0EC2100ED3A30 /* Models */,
+				A091960728E0EE2500ED3A30 /* Provider.swift */,
+				A091960928E0EE4100ED3A30 /* Interface.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A091960128E0EC0D00ED3A30 /* GetNewsModel */ = {
+			isa = PBXGroup;
+			children = (
+				A091960328E0EC4C00ED3A30 /* GetNewsResponse.swift */,
+			);
+			path = GetNewsModel;
+			sourceTree = "<group>";
+		};
+		A091960228E0EC2100ED3A30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A091960128E0EC0D00ED3A30 /* GetNewsModel */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,12 +528,27 @@
 			files = (
 				A09195EA28E05E4800ED3A30 /* MainTableViewMain.swift in Sources */,
 				A09195F028E05E8200ED3A30 /* MainTableViewRouter.swift in Sources */,
+				A0015EFA28E188C90055347B /* WebViewDetailViewController.swift in Sources */,
+				A0015F0228E188EB0055347B /* WebViewDetailProtocol.swift in Sources */,
+				A0015EFC28E188D30055347B /* WebViewDetailPresenter.swift in Sources */,
 				A09195E628E05E1200ED3A30 /* MainTableViewViewController.swift in Sources */,
+				A09195FF28E0DD3E00ED3A30 /* raven_ShimmerView.swift in Sources */,
+				A091960428E0EC4C00ED3A30 /* GetNewsResponse.swift in Sources */,
 				A09195EE28E05E7200ED3A30 /* MainTableViewInteractor.swift in Sources */,
+				A0015F0728E19AF10055347B /* ConnectionNetwork.swift in Sources */,
+				A09195FC28E0DCC900ED3A30 /* MainCellShimer.swift in Sources */,
 				A09195EC28E05E6200ED3A30 /* MainTableViewPresenter.swift in Sources */,
 				A09195E828E05E2C00ED3A30 /* MainTableViewContainer.swift in Sources */,
 				A09195B528E05A5D00ED3A30 /* AppDelegate.swift in Sources */,
+				A091960828E0EE2500ED3A30 /* Provider.swift in Sources */,
+				A0015EF828E188BE0055347B /* WebViewDetailContainter.swift in Sources */,
+				A0015F0428E198450055347B /* navigation+Extension.swift in Sources */,
+				A0015EF628E188AE0055347B /* WebViewDetailMain.swift in Sources */,
+				A0015EFE28E188DA0055347B /* WebViewDetailInteractor.swift in Sources */,
+				A091960A28E0EE4100ED3A30 /* Interface.swift in Sources */,
+				A0015F0028E188E50055347B /* WebViewDetailRouter.swift in Sources */,
 				A09195F228E05E9200ED3A30 /* MainTableViewProtocol.swift in Sources */,
+				A09195FA28E0DC3B00ED3A30 /* MainCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,7 +725,6 @@
 				INFOPLIST_FILE = ravenProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -648,7 +755,6 @@
 				INFOPLIST_FILE = ravenProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
