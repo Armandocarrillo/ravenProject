@@ -5,7 +5,7 @@
 //  Created by Armando Carillo - Bt on 25/09/22.
 //
 
-import Foundation
+import UIKit
 
 class MainTableViewPresenter {
     public var interactor :  MainTableViewInteractorProtocol?
@@ -15,14 +15,27 @@ class MainTableViewPresenter {
 }
 
 extension MainTableViewPresenter : MainTableViewPresenterProtocol{
-    func startLoader() {
-        
+    func goToWebView(url: String) {
+        router?.goToWebView(url: url)
     }
     
-    func stopLoader() {
-        
+    func errorGetNews() {
+        view?.errorGetNews()
     }
     
+    func successGetNew(_ model: GetNewsResponse?) {
+        view?.successGetNew(model)
+    }
+    
+    func getNews() {
+        if Reachability.isConnectedToNetwork(){
+            interactor?.getNews()
+        }else{
+            view?.errorGetNews()
+        }
+  
+    }
+  
    
     
 }

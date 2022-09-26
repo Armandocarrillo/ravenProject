@@ -9,7 +9,7 @@ import UIKit
 
 open class MainTableViewMain {
 
-    public static func createModule() -> UIViewController {
+    public static func createModule(navigation : UINavigationController) -> UIViewController {
 
         let viewController  :  MainTableViewViewController?   = MainTableViewViewController()
         if let view = viewController {
@@ -25,6 +25,7 @@ open class MainTableViewMain {
 
             interactor.presenter    =   presenter
             
+            router.navigation = navigation
 
             return view
         }
